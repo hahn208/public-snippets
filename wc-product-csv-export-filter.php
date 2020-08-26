@@ -35,8 +35,6 @@ add_filter(
             }
         }
         
-        error_log(print_r($meta_keys_to_skip, true));
-        
         return $meta_keys_to_skip;
     },
     10,
